@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Password generator</title>
+</head>
+<body>
+
+    <div class="wraper">
+        <h1> Generate a <span class="green-header"> random password </span> </h1>
+        <p> Never use an insecure password again. </p>
+        <button onclick="generate()"> Generate passwords </button>
+        <hr>
+        <div class="container">
+            <p id="first-pass"> </p>
+            <p id="second-pass"> </p>
+        </div>
+        <input id="length-pass1" type="checkbox" onclick="setlenght5()" name="lengthpass1">
+        <label for="lengthpass"> 5 characters </label>
+        <input id="length-pass2" type="checkbox" onclick="setlenght10()" name="lengthpass2">
+        <label for="lengthpass2"> 10 characters </label>
+        <input id="length-pass3" type="checkbox" onclick="setlenght15()" name="lengthpass3">
+        <label for="lengthpass3"> 15 characters </label>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>

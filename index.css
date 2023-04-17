@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #1F2937;
+    color: aliceblue;
+}
+.wraper {
+    width: 40%;
+    margin: auto;
+}
+.wraper > p {
+    margin: 0;
+}
+h1 {
+    margin: 40px 0 0;
+    font-weight: 600;
+    height: fit-content;
+}
+span {
+    display: block;
+    color: #10B981;
+}
+button {
+    margin: 40px 0 30px;
+    padding: 10px 15px;
+    color: aliceblue;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+hr {
+    color: #273549;
+    height: 2px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container > p {
+    width: 100%;
+    margin: 10px 0 40px 0;
+    padding: 10px 15px;
+    background-color: #273549;
+    color: #10B981;
+    border-radius: 6px;
+    height: 42px;
+}
+#first-pass {
+    margin-right: 10px;
+}
